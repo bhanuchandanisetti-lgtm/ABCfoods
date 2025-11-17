@@ -17,17 +17,19 @@ It uses **Flask**, **SQLite**, and **HTML templates** to provide a clean interfa
 - **ORM:** Raw SQL (schema.sql)
 
 ## 📁 Project Structure
-AbcFoods/
+```
+project-folder/
 │ app.py
 │ schema.sql
 │ README.md
 │ requirements.txt
 │ .gitignore
-│ abcseafoods.db (auto-generated)
+│ database.db (auto-created)
 │
 ├── templates/
-│ index.html
-│ add.html
+│     index.html
+│     add.html
 │
 └── static/
-style.css
+      style.css
+```
