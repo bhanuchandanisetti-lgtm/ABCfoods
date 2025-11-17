@@ -1,0 +1,15 @@
+# Ignore SQLite database files
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+
+# Ignore local git folder (if accidentally inside project)
+.git/
